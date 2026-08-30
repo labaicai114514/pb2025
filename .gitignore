@@ -1,0 +1,18 @@
+# ROS2 构建产物
+build/
+install/
+log/
+
+# 缓存与工具
+.cache/
+.zcode/
+__pycache__/
+*.pyc
+*.pyo
+
+# 先验点云地图 (不入库, 体积大且按场地提供)
+*.pcd
+
+# 临时文件
+*.tmp
+*.swp
